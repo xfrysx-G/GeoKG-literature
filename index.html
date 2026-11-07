@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A bilingual supplementary collection of research on knowledge graphs, language models and geospatial applications.">
+  <title>GeoKG Literature Library</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="core.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#results" data-i18n="skip">Skip to papers</a>
+  <header class="topbar"><a class="brand" href="./"><img src="favicon.svg" alt="" width="34" height="34"><span>GeoKG <span class="brand-light">/ Research Library</span></span></a><div class="top-actions"><a href="data.json" download data-i18n="download">Download catalogue</a><button id="language" type="button" lang="zh-CN">中文</button></div></header>
+  <main>
+    <section class="intro" aria-labelledby="page-title"><p class="eyebrow" data-i18n="eyebrow">SUPPLEMENTARY LITERATURE COLLECTION</p><h1 id="page-title" data-i18n="title">Knowledge graphs &amp; language models<br>for geospatial applications</h1><p class="lead" data-i18n="lead">Explore application studies, evaluation benchmarks and supporting methods across five research areas.</p><div class="collection-meta"><span><b>23</b> <span data-i18n="papers">papers</span></span><span><b>5</b> <span data-i18n="areas">research areas</span></span><span class="updated" data-i18n="updated">Collection prepared · 7 November 2026</span></div></section>
+    <div class="workspace">
+      <aside><h2 class="aside-heading" data-i18n="browse">BROWSE BY APPLICATION</h2><nav id="sections" aria-label="Research areas"></nav><div class="scope-note"><span class="note-dot"></span><h3 data-i18n="scopeTitle">A collection with context</h3><p data-i18n="scope">Benchmarks, graph-construction methods and related PLM studies are explicitly distinguished from LLM applications.</p></div></aside>
+      <section class="catalogue" aria-labelledby="list-title">
+        <form id="filters" class="filters" role="search">
+          <label class="search-label" for="search"><span data-i18n="searchLabel">Search the collection</span><div class="search-wrap"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m15 15 5 5" stroke="currentColor" stroke-width="1.6"/></svg><input type="search" id="search" placeholder="Title, author, topic or DOI…" autocomplete="off"></div></label>
+          <div class="filter-row"><label for="kind"><span data-i18n="typeLabel">Research type</span><select id="kind"></select></label><label for="quality"><span data-i18n="qualityLabel">Publication filter</span><select id="quality"></select></label><button id="reset" class="reset" type="button" data-i18n="reset">Reset filters</button></div>
+        </form>
+        <div class="results-heading"><h2 id="list-title" data-i18n="allPapers">All papers</h2><span id="result-count" role="status" aria-live="polite"></span></div>
+        <div id="results" tabindex="-1"></div>
+        <p class="grade-note" data-i18n="gradeNote">Publication filters use 2025 CAS major-category divisions and CCF full/regular conference-paper classifications. Publication grade does not establish thematic relevance.</p>
+      </section>
+    </div>
+  </main>
+  <footer><span>GeoKG / Research Library</span><p data-i18n="footer">A supplementary reading collection. Summaries are editorial notes; consult the original papers for full methods and results.</p><a href="README.md" data-i18n="about">About this collection</a></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p>This catalogue requires JavaScript. You can also <a href="catalogue.csv">download the CSV catalogue</a>.</p></noscript>
+</body>
+</html>
