@@ -1,6 +1,10 @@
-# GeoKG supplementary literature library
+# GeoKG Research Library
 
 A bilingual, static collection of 23 papers associated with sections 5.1–5.5 of a review on geographic knowledge graphs and language models. The collection includes application studies, evaluation benchmarks, upstream knowledge extraction, general methods and a related BERT/PLM study. Inclusion is not a claim that all papers meet the same thematic or publication criteria.
+
+## Representative GeoKG resources
+
+A separate [bilingual resource directory](representative-geokg/) contains eight representative graphs, platforms and semantic geospatial infrastructures. [Read the detailed GitHub catalogue](representative-geokg/README.md), or download its [CSV](representative-geokg/catalogue.csv) and [JSON](representative-geokg/data.json). These eight resources are separate from the 23 supplementary papers and do not use publication-grade filters. Sources reviewed on 7 November 2026; this is not a global ranking.
 
 ## Preview
 
@@ -9,7 +13,7 @@ Open `index.html` in a modern browser. For HTTP preview, run `python -m http.ser
 ## Publish to GitHub Pages
 
 1. Create a repository, for example `geokg-literature`.
-2. Upload the **contents** of this folder to its root: `index.html`, CSS and JS files, `favicon.svg`, `data.json`, `catalogue.csv`, `.nojekyll` and this README. Do not upload the parent workspace or PDF archive.
+2. Upload the **contents** of this folder to its root: `index.html`, CSS and JS files, `favicon.svg`, `data.json`, `catalogue.csv`, `.nojekyll` this README, and the complete `representative-geokg` subfolder. Do not upload the parent workspace or PDF archive.
 3. Open repository **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select the repository's branch (usually `main`) and `/(root)`, then save.
 4. Open the Pages URL GitHub reports once deployment completes. All asset paths are relative and support a project repository URL.
 
