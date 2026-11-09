@@ -1,74 +1,36 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Representative GeoKG Resources · 代表性GeoKG资源</title><meta name="description" content="Eight representative geographic knowledge graphs and semantic geospatial infrastructures, with teams, applications and primary sources.">
-<link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="resources.css"></head>
-<body><a class="skip" href="#resources">跳到资源正文</a>
-<header class="topbar"><a class="brand" href="../"><img src="../favicon.svg" alt="" width="34" height="34"><span>GeoKG <span class="brand-light">/ Research Library</span></span></a><div class="top-actions"><a href="../">文献目录 / Literature</a><a href="catalogue.csv" download>下载清单 CSV ↓</a></div></header>
-<main><section class="intro"><p class="eyebrow" lang="en">GRAPHS · PLATFORMS · RESEARCH INFRASTRUCTURES</p><h1>代表性GeoKG资源<br><span lang="en">Representative GeoKG resources</span></h1><p class="lead">本目录整理8项具有不同领域和技术路线代表性的GeoKG及相关语义地理信息基础设施。选择依据为可追溯的团队与机构背景、公开论文或技术材料，以及可说明的知识组织与应用方式；不作全球影响力排名，也不要求结合大语言模型。中文名称为便于理解的译名。</p><div class="collection-meta"><span><b>8</b> 代表案例 / resources</span><span class="updated">来源核查 / Sources reviewed · 2026-11-07</span></div></section>
-<div class="resource-layout"><aside><h2 class="aside-heading">浏览资源 / BROWSE RESOURCES</h2><nav aria-label="资源索引"><a href="#knowwheregraph"><span>01</span>KnowWhereGraph</a><a href="#dde"><span>02</span>DDE Geoscience Knowledge Graph</a><a href="#world-avatar"><span>03</span>The World Avatar</a><a href="#geoconnex"><span>04</span>Geoconnex</a><a href="#odis"><span>05</span>Ocean Data Information System (ODIS)</a><a href="#km4city"><span>06</span>Km4City / Snap4City</a><a href="#yago2geo"><span>07</span>YAGO2geo</a><a href="#worldkg"><span>08</span>WorldKG</a></nav><div class="scope-note"><span class="note-dot"></span><h3>按领域与知识能力比较</h3><p>兼顾实例图谱、专业知识工程、动态数字孪生与联邦资源发现。序号用于浏览，不代表排名。</p></div></aside>
-<section id="resources" aria-label="8项GeoKG资源"><article class="resource" id="knowwheregraph" aria-labelledby="title-1">
-      <div class="resource-top"><span class="ordinal">01</span><span class="chip">跨领域环境与灾害</span><span class="english-domain" lang="en">Human–environment integration</span></div>
-      <h2 id="title-1" lang="en">KnowWhereGraph</h2><p class="cn-title">跨领域地理知识图谱</p>
-      <p class="form">知识图谱、数据融合与地理增值服务</p><p class="summary">把灾害、土壤、农业、健康等数据通过空间单元与时间关联，服务跨领域环境信息发现。</p>
-      <p class="en-summary" lang="en">A cross-domain geo-knowledge graph that connects environmental and societal data through shared spatial references, supporting geo-enrichment and contextual discovery.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>UCSB等多校合作；Krzysztof Janowicz、Pascal Hitzler、Mark Schildhauer等</dd></div><div><dt>代表性依据 / Evidence</dt><dd>NSF Convergence Accelerator支持；合作涉及USGS、USDA及产业和公益机构</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>地理实体、区域、全球离散网格及主题数据；通过空间与时间关联不同来源。</dd></div><div><dt>典型用途 / Applications</dt><dd>受灾地区背景信息整合、农业与食品供应链环境信息、跨来源区域比较。</dd></div><div><dt>整理价值 / Perspective</dt><dd>以空间位置组织跨领域证据，说明GeoKG如何承担GIS中的地理增值服务。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>适合说明异构数据的空间关联和地理增值；不能把空间共现直接解释为因果关系。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">The KnowWhereGraph: A Large-Scale Geo-Knowledge Graph for Interdisciplinary Knowledge Discovery and Geo-Enrichment</p><small>2025 · arXiv预印本；此处链接版本不作为期刊出版信息</small></div>
-      <div class="resource-links"><a href="https://www.knowwheregraph.org/">官方入口 ↗</a><a href="https://arxiv.org/abs/2502.13874">论文／文档 ↗</a><a href="https://knowwheregraph.org/about/">补充证据 ↗</a></div>
-    </article><article class="resource" id="dde" aria-labelledby="title-2">
-      <div class="resource-top"><span class="ordinal">02</span><span class="chip">深时地学与地质</span><span class="english-domain" lang="en">Deep-time geoscience</span></div>
-      <h2 id="title-2" lang="en">DDE Geoscience Knowledge Graph</h2><p class="cn-title">深时数字地球地学知识图谱</p>
-      <p class="form">国际科学计划中的知识体系、图谱与协同工具</p><p class="summary">组织基础层、学科层与应用层知识，支持地学知识共享、融合与专业应用。</p>
-      <p class="en-summary" lang="en">The DDE programme develops geoscience knowledge systems, ontologies and graphs across disciplines, combining expert organisation with knowledge extraction.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>IUGS Deep-time Digital Earth计划；朱云强、周成虎、胡修棉、王新兵等多机构团队</dd></div><div><dt>代表性依据 / Evidence</dt><dd>IUGS国际科学计划及UNESCO官方介绍；有系统性方法与建设进展论文</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>地学概念及学科关系；区分基础、学科和应用层。空间实例与专业概念层需分别说明。</dd></div><div><dt>典型用途 / Applications</dt><dd>跨学科地学知识共享、专业语义整合、面向应用的地学知识组织。</dd></div><div><dt>整理价值 / Perspective</dt><dd>国际科学计划下的专业领域知识工程，适合体现专家知识、学科本体与图谱协作。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>DDE是计划与生态体系，不能等同于一个已完全统一的全球实例图谱。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">Methodology, progress and challenges of geoscience knowledge graph in International Big Science Program of Deep-Time Digital Earth</p><small>2025 · Journal of Geographical Sciences 35(5): 1132–1156 · DOI: 10.1007/s11442-025-2361-0</small></div>
-      <div class="resource-links"><a href="https://www.unesco.org/en/open-science/inclusive-science/empowering-geoscientists-deep-time-digital-earth">官方入口 ↗</a><a href="https://www.geogsci.com/EN/abstract/article/1009-637X/73547">论文／文档 ↗</a><a href="https://www.geogsci.com/EN/abstract/article/1009-637X/73547">补充证据 ↗</a></div>
-    </article><article class="resource" id="world-avatar" aria-labelledby="title-3">
-      <div class="resource-top"><span class="ordinal">03</span><span class="chip">城市、能源与工业数字孪生</span><span class="english-domain" lang="en">Dynamic digital twins</span></div>
-      <h2 id="title-3" lang="en">The World Avatar</h2><p class="cn-title">世界化身／世界数字孪生知识图谱</p>
-      <p class="form">动态知识图谱、计算代理与数字孪生框架</p><p class="summary">连接建筑、能源、环境与模型，使用计算代理更新信息及派生结果，支持模拟和情景分析。</p>
-      <p class="en-summary" lang="en">A dynamic knowledge graph and agent framework connecting data and computational models for interoperable digital twins and scenario analysis.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>University of Cambridge、Cambridge CARES及合作团队；Markus Kraft、Jethro Akroyd等</dd></div><div><dt>代表性依据 / Evidence</dt><dd>剑桥官方持续研究项目；具有通用框架论文及洪水风险等应用研究</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>建筑、基础设施、传感器、环境信息与计算模型；代理更新数据和派生信息，部分应用具有空间锚点。</dd></div><div><dt>典型用途 / Applications</dt><dd>建筑与能源系统分析、城市韧性、洪水评估和情景模拟；具体能力取决于应用模块。</dd></div><div><dt>整理价值 / Perspective</dt><dd>从静态事实走向数据—模型—计算代理协同，适合讨论动态GeoKG与数字孪生。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>框架、本体与具体应用实例图谱应分开表述；并非所有模块都是地理数据。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">Universal Digital Twin – A Dynamic Knowledge Graph</p><small>2021 · Data-Centric Engineering · DOI: 10.1017/dce.2021.10</small></div>
-      <div class="resource-links"><a href="https://www.cares.cam.ac.uk/research/the-world-avatar/">官方入口 ↗</a><a href="https://doi.org/10.1017/dce.2021.10">论文／文档 ↗</a><a href="https://doi.org/10.1017/dce.2021.10">补充证据 ↗</a></div>
-    </article><article class="resource" id="geoconnex" aria-labelledby="title-4">
-      <div class="resource-top"><span class="ordinal">04</span><span class="chip">水文与水资源</span><span class="english-domain" lang="en">Hydrology and water data</span></div>
-      <h2 id="title-4" lang="en">Geoconnex</h2><p class="cn-title">水文地理数据互联知识图谱</p>
-      <p class="form">水数据标识、链接与检索基础设施</p><p class="summary">以持久标识关联河流、流域、监测站、数据服务与提供机构，帮助发现跨机构水数据。</p>
-      <p class="en-summary" lang="en">A water-data linking infrastructure that uses persistent identifiers and a knowledge graph to connect hydrologic features with distributed data resources.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>Lincoln Institute of Land Policy的Center for Geospatial Solutions／Internet of Water；与USGS合作</dd></div><div><dt>代表性依据 / Evidence</dt><dd>USGS官方介绍其社区水数据知识图谱与检索索引；有公开访问文档</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>河流、流域、监测站及相关数据服务；利用持久URI连接水文参考对象与分散资源。</dd></div><div><dt>典型用途 / Applications</dt><dd>跨机构发现某条河流、流域或站点关联的数据，减少不同水数据系统间的检索障碍。</dd></div><div><dt>整理价值 / Perspective</dt><dd>侧重标识、链接和资源发现，代表跨机构水文数据互操作。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>核心是水文对象与分散数据资源互联，不代表将全部原始观测集中存入图谱。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">Geoconnex official knowledge graph access documentation</p><small>官方技术文档；此条不冒充期刊论文</small></div>
-      <div class="resource-links"><a href="https://internetofwater.org/geoconnex/">官方入口 ↗</a><a href="https://docs.geoconnex.us/access/overview/">论文／文档 ↗</a><a href="https://www.usgs.gov/media/videos/towards-internet-water-creating-a-community-search-index-water-data">补充证据 ↗</a></div>
-    </article><article class="resource" id="odis" aria-labelledby="title-5">
-      <div class="resource-top"><span class="ordinal">05</span><span class="chip">海洋信息</span><span class="english-domain" lang="en">Federated ocean information</span></div>
-      <h2 id="title-5" lang="en">Ocean Data Information System (ODIS)</h2><p class="cn-title">海洋数据信息系统</p>
-      <p class="form">联邦式元数据知识图谱与互操作工程</p><p class="summary">通过分布式节点发布和采集结构化元数据，连接海洋数据、服务及其他信息资源。</p>
-      <p class="en-summary" lang="en">A federation of independent ocean information systems whose shared metadata conventions enable a collective knowledge graph for resource discovery.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>UNESCO IOC／IODE；Pier Luigi Buttigieg、Douglas Fils等参与技术建设</dd></div><div><dt>代表性依据 / Evidence</dt><dd>联合国教科文组织政府间海洋学委员会体系；跨机构海洋资源互联</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>海洋数据集、服务与其他信息资源的结构化描述；采集分布式节点元数据并建立资源关联。</dd></div><div><dt>典型用途 / Applications</dt><dd>跨海洋机构发现数据和服务，让独立系统的资源描述可互操作。</dd></div><div><dt>整理价值 / Perspective</dt><dd>以国际协作的联邦元数据图谱实现海洋信息发现，适合与集中式实例图谱比较。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>主要是资源描述与发现层的知识图谱，不能称为统一的原始海洋观测或海洋因果图谱。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">ODIS architecture and implementation documentation</p><small>官方项目与架构文档；此条不冒充期刊论文</small></div>
-      <div class="resource-links"><a href="https://odis.org/overview/">官方入口 ↗</a><a href="https://github.com/iodepo/odis-arch">论文／文档 ↗</a><a href="https://book.odis.org/">补充证据 ↗</a></div>
-    </article><article class="resource" id="km4city" aria-labelledby="title-6">
-      <div class="resource-top"><span class="ordinal">06</span><span class="chip">智慧城市与交通</span><span class="english-domain" lang="en">Smart cities and mobility</span></div>
-      <h2 id="title-6" lang="en">Km4City / Snap4City</h2><p class="cn-title">城市知识模型与智慧城市平台</p>
-      <p class="form">城市本体、实例知识库、API与运营平台</p><p class="summary">语义整合道路、地址、POI、公共交通、传感器与城市事件，支持城市服务和数据查询。</p>
-      <p class="en-summary" lang="en">A city knowledge model and platform ecosystem integrating heterogeneous urban data into an RDF knowledge base for querying and city services.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>University of Florence DISIT Lab；Paolo Nesi、Pierfrancesco Bellini等</dd></div><div><dt>代表性依据 / Evidence</dt><dd>佛罗伦萨大学研究团队；有城市知识库、服务接口与平台应用文档</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>道路、地址、城市服务、交通传感器等；用城市本体协调静态与动态数据，并提供SPARQL访问。</dd></div><div><dt>典型用途 / Applications</dt><dd>城市数据整合、道路及服务查询、交通与传感器相关应用。</dd></div><div><dt>整理价值 / Perspective</dt><dd>展示城市本体如何落地为实例知识库、接口与应用，而非停留在概念模型。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>Km4City本体与Snap4City平台不是同一对象；代表性在于本体与实例知识库及服务的结合。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">Km4City Ontology Building vs Data Harvesting and Cleaning for Smart-city Services</p><small>作者公开稿 arXiv:1508.01086；关联出版DOI: 10.1016/j.jvlc.2014.10.023</small></div>
-      <div class="resource-links"><a href="https://www.snap4city.org/drupal/node/19">官方入口 ↗</a><a href="https://arxiv.org/abs/1508.01086">论文／文档 ↗</a><a href="https://arxiv.org/abs/1508.01086">补充证据 ↗</a></div>
-    </article><article class="resource" id="yago2geo" aria-labelledby="title-7">
-      <div class="resource-top"><span class="ordinal">07</span><span class="chip">精确几何与空间问答</span><span class="english-domain" lang="en">Precise geospatial knowledge</span></div>
-      <h2 id="title-7" lang="en">YAGO2geo</h2><p class="cn-title">具有精确地理空间知识的YAGO扩展</p>
-      <p class="form">地理知识图谱与研究数据资源</p><p class="summary">为YAGO补充点、线、面等几何及行政区域信息，支持更精确的空间查询与地理问答。</p>
-      <p class="en-summary" lang="en">An extension of YAGO2 with precise geospatial information and geometries, supporting spatial queries beyond simple entity coordinates.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>National and Kapodistrian University of Athens；Manolis Koubarakis、Nikolaos Karalis、Georgios Mandilaras</dd></div><div><dt>代表性依据 / Evidence</dt><dd>ISWC 2019成果；雅典大学公开论文与项目资源</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>地理实体与行政区划，以及点、线、面等精确几何；支持基于几何的空间查询。</dd></div><div><dt>典型用途 / Applications</dt><dd>空间条件检索与地理问答，以及对地理实体几何和行政关系的联合利用。</dd></div><div><dt>整理价值 / Perspective</dt><dd>适合作为语义实体与精确几何结合的研究案例。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>属于经典研究资源；不能仅凭项目主页存在就判断其仍在持续更新。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">Extending the YAGO2 Knowledge Graph with Precise Geospatial Knowledge</p><small>2019 · ISWC · 作者公开PDF</small></div>
-      <div class="resource-links"><a href="https://yago2geo.di.uoa.gr/">官方入口 ↗</a><a href="https://cgi.di.uoa.gr/~koubarak/publications/2019/yago2geo_iswc2019.pdf">论文／文档 ↗</a><a href="https://cgi.di.uoa.gr/~koubarak/publications/2019/yago2geo_iswc2019.pdf">补充证据 ↗</a></div>
-    </article><article class="resource" id="worldkg" aria-labelledby="title-8">
-      <div class="resource-top"><span class="ordinal">08</span><span class="chip">全球地理实体与开放地图语义化</span><span class="english-domain" lang="en">World-scale geographic entities</span></div>
-      <h2 id="title-8" lang="en">WorldKG</h2><p class="cn-title">世界尺度地理知识图谱</p>
-      <p class="form">地理知识图谱与公开研究数据</p><p class="summary">把OpenStreetMap的地理实体和标签组织成语义层级，关联Wikidata、DBpedia等外部知识。</p>
-      <p class="en-summary" lang="en">A world-scale geographic knowledge graph that semantically organises OpenStreetMap entities and tags and connects them with external knowledge bases.</p><dl><div><dt>团队与代表作者 / Team</dt><dd>University of Bonn、L3S；Elena Demidova、Alishiba Dsouza、Nicolas Tempelmeier、Ran Yu、Simon Gottschalk</dd></div><div><dt>代表性依据 / Evidence</dt><dd>DFG研究项目；CIKM 2021论文及机构公开成果</dd></div><div><dt>知识与空间表达 / Knowledge</dt><dd>OSM地理实体、标签与语义类别层级；连接外部知识库，改善地理实体的语义表达。</dd></div><div><dt>典型用途 / Applications</dt><dd>地理实体语义检索、地图数据与通用知识库对齐、地理知识增强研究。</dd></div><div><dt>整理价值 / Perspective</dt><dd>适合作为开放地图数据从标签系统走向语义图谱的代表案例。</dd></div></dl>
-      <p class="boundary"><strong>范围说明 / Scope</strong><br>WorldKG是基于OSM构建的语义资源，不等同于OSM本身；注意数据版本时间。</p>
-      <div class="reference"><span class="small-label">参考论文或技术材料 / Reference</span><p lang="en">WorldKG: A World-Scale Geographic Knowledge Graph</p><small>2021 · CIKM: 4475–4484 · DOI: 10.1145/3459637.3482023</small></div>
-      <div class="resource-links"><a href="https://www.dsis.uni-bonn.de/worldkg/de">官方入口 ↗</a><a href="https://arxiv.org/abs/2109.10036">论文／文档 ↗</a><a href="https://research.uni-hannover.de/en/publications/worldkg-a-world-scale-geographic-knowledge-graph/">补充证据 ↗</a></div>
-    </article><section class="scope-box"><h2>阅读与使用说明</h2><p>成果形态包括实例图谱、科学计划、平台与联邦元数据工程，不能视为同类产品直接排名。官方入口和论文可用于进一步核查；本目录未逐一测试在线查询端点或下载全量数据。项目、作者与机构的列举不表示其为本目录背书。</p><p lang="en">This is a curated reading directory, not a ranking or endorsement. Resource types differ; metadata graphs, scientific programmes and instantiated knowledge graphs should be distinguished. Live query endpoints have not been individually tested.</p><p><a href="README.md">GitHub阅读版 / Markdown</a> · <a href="data.json" download>结构化数据 / JSON</a> · <a href="catalogue.csv" download>清单 / CSV</a></p></section></section></div></main>
-<footer><span>GeoKG / Research Library</span><p>简介为整理者概述；请以项目、论文和技术文档为准。<br>Editorial summaries; consult the primary sources for details.</p><a href="../">返回文献目录 ↑</a></footer></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A bilingual supplementary collection of research on knowledge graphs, language models and geospatial applications.">
+  <title>GeoKG Literature Library</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="core.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#results" data-i18n="skip">Skip to papers</a>
+  <header class="topbar"><a class="brand" href="./"><img src="favicon.svg" alt="" width="34" height="34"><span>GeoKG <span class="brand-light">/ Research Library</span></span></a><div class="top-actions"><a href="data.json" download data-i18n="download">Download catalogue</a><button id="language" type="button" lang="zh-CN">中文</button></div></header>
+  <main>
+    <section class="intro" aria-labelledby="page-title"><p class="eyebrow" data-i18n="eyebrow">SUPPLEMENTARY LITERATURE COLLECTION</p><h1 id="page-title" data-i18n="title">Knowledge graphs &amp; language models<br>for geospatial applications</h1><p class="lead" data-i18n="lead">Explore application studies, evaluation benchmarks and supporting methods across five research areas.</p><div class="collection-meta"><span><b>23</b> <span data-i18n="papers">papers</span></span><span><b>5</b> <span data-i18n="areas">research areas</span></span><span class="updated" data-i18n="updated">Collection prepared · 7 November 2026</span></div></section>
+    <div class="workspace">
+      <aside><h2 class="aside-heading" data-i18n="browse">BROWSE BY APPLICATION</h2><nav id="sections" aria-label="Research areas"></nav><div class="scope-note"><span class="note-dot"></span><h3 data-i18n="scopeTitle">A collection with context</h3><p data-i18n="scope">Benchmarks, graph-construction methods and related PLM studies are explicitly distinguished from LLM applications.</p></div></aside>
+      <section class="catalogue" aria-labelledby="list-title">
+        <form id="filters" class="filters" role="search">
+          <label class="search-label" for="search"><span data-i18n="searchLabel">Search the collection</span><div class="search-wrap"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m15 15 5 5" stroke="currentColor" stroke-width="1.6"/></svg><input type="search" id="search" placeholder="Title, author, topic or DOI…" autocomplete="off"></div></label>
+          <div class="filter-row"><label for="kind"><span data-i18n="typeLabel">Research type</span><select id="kind"></select></label><label for="quality"><span data-i18n="qualityLabel">Publication filter</span><select id="quality"></select></label><button id="reset" class="reset" type="button" data-i18n="reset">Reset filters</button></div>
+        </form>
+        <div class="results-heading"><h2 id="list-title" data-i18n="allPapers">All papers</h2><span id="result-count" role="status" aria-live="polite"></span></div>
+        <div id="results" tabindex="-1"></div>
+        <p class="grade-note" data-i18n="gradeNote">Publication filters use 2025 CAS major-category divisions and CCF full/regular conference-paper classifications. Publication grade does not establish thematic relevance.</p>
+      </section>
+    </div>
+  </main>
+  <footer><span>GeoKG / Research Library</span><p data-i18n="footer">A supplementary reading collection. Summaries are editorial notes; consult the original papers for full methods and results.</p><a href="README.md" data-i18n="about">About this collection</a></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p>This catalogue requires JavaScript. You can also <a href="catalogue.csv">download the CSV catalogue</a>.</p></noscript>
+</body>
+</html>
