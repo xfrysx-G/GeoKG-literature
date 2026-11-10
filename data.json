@@ -7,8 +7,7 @@
     "venue": "Transactions in GIS",
     "kind": "method",
     "url": "https://doi.org/10.1111/tgis.70371",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -18,8 +17,7 @@
     "venue": "NeurIPS 2025, Datasets and Benchmarks Track",
     "kind": "benchmark",
     "url": "https://papers.neurips.cc/paper_files/paper/2025/hash/5ebcbc5e7470ff60057600fe43f73b4c-Abstract-Datasets_and_Benchmarks_Track.html",
-    "summary": "Evaluation-focused work assigned to Geographic question answering. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -29,8 +27,7 @@
     "venue": "ISPRS International Journal of Geo-Information",
     "kind": "method",
     "url": "https://doi.org/10.3390/ijgi15020078",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -40,8 +37,7 @@
     "venue": "Findings of EMNLP 2026",
     "kind": "method",
     "url": "https://aclanthology.org/2026.findings-emnlp.1961/",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -51,8 +47,7 @@
     "venue": "Findings of EMNLP 2025",
     "kind": "benchmark",
     "url": "https://scholar.google.com/scholar?q=Mitigating+Geospatial+Knowledge+Hallucination+in+Large+Language+Models%3A+Benchmarking+and+Dynamic+Factuality+Aligning",
-    "summary": "Evaluation-focused work assigned to Geographic question answering. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -62,8 +57,7 @@
     "venue": "GIScience 2023",
     "kind": "method",
     "url": "https://doi.org/10.4230/LIPIcs.GIScience.2023.28",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -73,8 +67,7 @@
     "venue": "ACM SIGSPATIAL 2026",
     "kind": "method",
     "url": "https://doi.org/10.1145/3799682.3841078",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -84,8 +77,7 @@
     "venue": "IEEE Access",
     "kind": "method",
     "url": "https://doi.org/10.1109/ACCESS.2026.3695549",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -95,8 +87,7 @@
     "venue": "CVPR 2025",
     "kind": "benchmark",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_PEACE_Empowering_Geologic_Map_Holistic_Understanding_with_MLLMs_CVPR_2025_paper.html",
-    "summary": "Evaluation-focused work assigned to Geographic question answering. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -106,8 +97,7 @@
     "venue": "IEEE ITSC 2025",
     "kind": "method",
     "url": "https://doi.org/10.1109/ITSC60802.2025.11423447",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -117,8 +107,7 @@
     "venue": "ICML 2025, PMLR 267",
     "kind": "benchmark",
     "url": "https://proceedings.mlr.press/v267/dihan25a.html",
-    "summary": "Evaluation-focused work assigned to Geographic question answering. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -128,8 +117,7 @@
     "venue": "IET Smart Cities",
     "kind": "method",
     "url": "https://doi.org/10.1049/smc2.70009",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -139,8 +127,7 @@
     "venue": "International Journal of Geographical Information Science",
     "kind": "method",
     "url": "https://doi.org/10.1080/13658816.2026.2696352",
-    "summary": "Method-focused work assigned to Geographic question answering; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.1",
@@ -150,8 +137,7 @@
     "venue": "ACL 2026",
     "kind": "benchmark",
     "url": "https://scholar.google.com/scholar?q=UrbanGeoEval%3A+A+City-Scale+Benchmark+for+Evaluating+Large+Language+Models+in+Geospatial+Reasoning",
-    "summary": "Evaluation-focused work assigned to Geographic question answering. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -161,8 +147,7 @@
     "venue": "International Journal of Digital Earth",
     "kind": "method",
     "url": "https://doi.org/10.1080/17538947.2025.2468407",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -172,8 +157,7 @@
     "venue": "NeurIPS 2025, Datasets and Benchmarks Track",
     "kind": "benchmark",
     "url": "https://papers.neurips.cc/paper_files/paper/2025/hash/5ebcbc5e7470ff60057600fe43f73b4c-Abstract-Datasets_and_Benchmarks_Track.html",
-    "summary": "Evaluation-focused work assigned to Automated spatial analysis. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -183,8 +167,7 @@
     "venue": "Geo-spatial Information Science",
     "kind": "benchmark",
     "url": "https://doi.org/10.1080/10095020.2025.2535523",
-    "summary": "Evaluation-focused work assigned to Automated spatial analysis. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -194,8 +177,7 @@
     "venue": "Findings of EMNLP 2026",
     "kind": "method",
     "url": "https://aclanthology.org/2026.findings-emnlp.1961/",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -205,8 +187,7 @@
     "venue": "Big Earth Data",
     "kind": "method",
     "url": "https://doi.org/10.1080/20964471.2026.2689760",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -216,8 +197,7 @@
     "venue": "IEEE Access",
     "kind": "method",
     "url": "https://doi.org/10.1109/ACCESS.2026.3695549",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -227,8 +207,7 @@
     "venue": "CVPR 2025",
     "kind": "benchmark",
     "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_PEACE_Empowering_Geologic_Map_Holistic_Understanding_with_MLLMs_CVPR_2025_paper.html",
-    "summary": "Evaluation-focused work assigned to Automated spatial analysis. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -238,8 +217,7 @@
     "venue": "IEEE ITSC 2025",
     "kind": "method",
     "url": "https://doi.org/10.1109/ITSC60802.2025.11423447",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -249,8 +227,7 @@
     "venue": "Automation in Construction",
     "kind": "method",
     "url": "https://scholar.google.com/scholar?q=LLM-Powered+Natural+Language+Interaction+for+Voxel-Based+Underground+Digital+Twin+Using+Task-Aware+Retrieval+and+Prompt+Engineering",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -260,8 +237,7 @@
     "venue": "ICML 2025, PMLR 267",
     "kind": "benchmark",
     "url": "https://proceedings.mlr.press/v267/dihan25a.html",
-    "summary": "Evaluation-focused work assigned to Automated spatial analysis. It is displayed separately from method papers.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -271,8 +247,7 @@
     "venue": "Environmental Modelling & Software",
     "kind": "method",
     "url": "https://doi.org/10.1016/j.envsoft.2025.106399",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.2",
@@ -282,8 +257,7 @@
     "venue": "International Journal of Geographical Information Science",
     "kind": "method",
     "url": "https://doi.org/10.1080/13658816.2026.2724505",
-    "summary": "Method-focused work assigned to Automated spatial analysis; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -293,8 +267,7 @@
     "venue": "ACM SIGSPATIAL GeoAI Workshop",
     "kind": "method",
     "url": "https://doi.org/10.1145/3764912.3770813",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -304,8 +277,7 @@
     "venue": "arXiv preprint",
     "kind": "method",
     "url": "https://arxiv.org/abs/2510.08012",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -315,8 +287,7 @@
     "venue": "ACM SIGKDD 2026",
     "kind": "method",
     "url": "https://doi.org/10.1145/3770855.3818010",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -326,8 +297,7 @@
     "venue": "ECAI 2025",
     "kind": "method",
     "url": "https://doi.org/10.3233/FAIA251463",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -337,8 +307,7 @@
     "venue": "arXiv preprint",
     "kind": "method",
     "url": "https://arxiv.org/abs/2509.12350",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -348,8 +317,7 @@
     "venue": "Information Processing & Management",
     "kind": "method",
     "url": "https://doi.org/10.1016/j.ipm.2026.104824",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -359,8 +327,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering",
     "kind": "method",
     "url": "https://doi.org/10.1109/TKDE.2025.3545958",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -370,8 +337,7 @@
     "venue": "IEEE AIITA 2026",
     "kind": "method",
     "url": "https://doi.org/10.1109/AIITA69518.2026.11567042",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -381,8 +347,7 @@
     "venue": "ECAI 2025 Demo",
     "kind": "method",
     "url": "https://doi.org/10.3233/FAIA251450",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.3",
@@ -392,8 +357,7 @@
     "venue": "IEEE IBDAP 2026",
     "kind": "method",
     "url": "https://doi.org/10.1109/IBDAP69915.2026.11677988",
-    "summary": "Method-focused work assigned to Geospatial recommendation; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -403,8 +367,7 @@
     "venue": "ACL 2025",
     "kind": "method",
     "url": "https://scholar.google.com/scholar?q=AnRe%3A+Analogical+Replay+for+Temporal+Knowledge+Graph+Forecasting",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -414,8 +377,7 @@
     "venue": "Findings of ACL 2026",
     "kind": "method",
     "url": "https://scholar.google.com/scholar?q=Critic+Rule+Induction%3A+Improving+Temporal+Knowledge+Graph+Forecasting+with+Generator-Critic+Language+Models",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -425,8 +387,7 @@
     "venue": "Findings of ACL 2026",
     "kind": "method",
     "url": "https://scholar.google.com/scholar?q=From+Implicit+Graph+Encoding+to+Explicit+Evidence%3A+A+Training-Free+LLM+Framework+for+Temporal+Knowledge+Graph+Reasoning",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -436,8 +397,7 @@
     "venue": "Findings of NAACL 2024",
     "kind": "method",
     "url": "https://aclanthology.org/2024.findings-naacl.268/",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -447,8 +407,7 @@
     "venue": "IEEE LESCDT 2025",
     "kind": "method",
     "url": "https://scholar.google.com/scholar?q=Intelligent+Perception+and+Early+Warning+Framework+for+Agricultural+Product+Supply+Chain+Risks+Based+on+Large+Language+Model+and+Knowledge+Graph",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -458,8 +417,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering",
     "kind": "method",
     "url": "https://doi.org/10.1109/TKDE.2026.3674110",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -469,8 +427,7 @@
     "venue": "ACL 2024",
     "kind": "method",
     "url": "https://scholar.google.com/scholar?q=ONSEP%3A+A+Novel+Online+Neural-Symbolic+Framework+for+Event+Prediction+Based+on+Large+Language+Model",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -480,8 +437,7 @@
     "venue": "Applied Sciences",
     "kind": "method",
     "url": "https://doi.org/10.3390/app16126232",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -491,8 +447,7 @@
     "venue": "ACL 2026",
     "kind": "method",
     "url": "https://scholar.google.com/scholar?q=STK-Adapter%3A+Incorporating+Evolving+Graph+and+Event+Chain+for+Temporal+Knowledge+Graph+Extrapolation",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -502,8 +457,7 @@
     "venue": "KEOD 2024",
     "kind": "method",
     "url": "https://doi.org/10.5220/0013066900003838",
-    "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.4",
@@ -513,8 +467,7 @@
     "venue": "Communications in Computer and Information Science, vol. 2698, pp. 93-105",
     "kind": "method",
     "url": "https://doi.org/10.1007/978-981-95-8525-0_8",
-    "summary": "The paper constructs a spatiotemporal knowledge graph and uses a Temporal Prize-Collecting Steiner Tree (T-PCST) algorithm to retrieve compact, task-relevant subgraphs for interpretable traffic-flow prediction.",
-    "source_status": "Metadata only; local PDF unavailable"
+    "summary": "The paper constructs a spatiotemporal knowledge graph and uses a Temporal Prize-Collecting Steiner Tree (T-PCST) algorithm to retrieve compact, task-relevant subgraphs for interpretable traffic-flow prediction."
   },
   {
     "section": "5.5",
@@ -524,8 +477,7 @@
     "venue": "International Journal of Disaster Risk Reduction",
     "kind": "method",
     "url": "https://doi.org/10.1016/j.ijdrr.2024.104804",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -535,8 +487,7 @@
     "venue": "Geo-spatial Information Science",
     "kind": "method",
     "url": "https://doi.org/10.1080/10095020.2025.2514813",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -546,8 +497,7 @@
     "venue": "ACM SIGSPATIAL 2024",
     "kind": "method",
     "url": "https://doi.org/10.1145/3664647.3681705",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -557,8 +507,7 @@
     "venue": "International Journal of Production Research",
     "kind": "method",
     "url": "https://doi.org/10.1080/00207543.2026.2702057",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -568,8 +517,7 @@
     "venue": "Tunnelling and Underground Space Technology",
     "kind": "method",
     "url": "https://doi.org/10.1016/j.tust.2026.107569",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -579,8 +527,7 @@
     "venue": "Automation in Construction",
     "kind": "method",
     "url": "https://doi.org/10.1016/j.autcon.2025.106632",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -590,8 +537,7 @@
     "venue": "ACM conference paper",
     "kind": "method",
     "url": "https://doi.org/10.1145/3813822.3814028",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -601,8 +547,7 @@
     "venue": "Journal of Hydroinformatics",
     "kind": "method",
     "url": "https://doi.org/10.2166/hydro.2026.248",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -612,8 +557,7 @@
     "venue": "International Journal of Disaster Risk Science",
     "kind": "method",
     "url": "https://doi.org/10.1007/s13753-026-00715-z",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   },
   {
     "section": "5.5",
@@ -623,7 +567,6 @@
     "venue": "Ocean & Coastal Management",
     "kind": "method",
     "url": "https://doi.org/10.1016/j.ocecoaman.2026.108366",
-    "summary": "Method-focused work assigned to Decision support; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
-    "source_status": "PDF available in the supplied collection"
+    "summary": ""
   }
 ]

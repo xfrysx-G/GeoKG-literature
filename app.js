@@ -35,7 +35,7 @@
       const button = el('button', 'section-button' + (active ? ' active' : ''));
       button.type = 'button';
       button.setAttribute('aria-pressed', String(active));
-      const label = section === 'all' ? 'All records' : `${section}  ${sectionNames[section]}`;
+      const label = section === 'all' ? 'All papers' : `${section}  ${sectionNames[section]}`;
       const count = section === 'all' ? papers.length : papers.filter(p => p.section === section).length;
       button.append(el('span', '', label), el('span', 'count', String(count)));
       button.addEventListener('click', () => { state.section = section; renderSections(); renderResults(); });
@@ -51,7 +51,6 @@
     const title = el('h3', '', paper.title);
     const byline = el('p', 'byline', `${paper.authors} · ${paper.venue}`);
     const summary = el('p', 'paper-summary', paper.summary);
-    const status = el('p', 'source-status', paper.source_status);
     const actions = el('div', 'paper-actions');
     const link = el('a', '', 'Open publication ↗');
     link.href = paper.url;
@@ -65,7 +64,9 @@
       catch (_) { copy.textContent = 'Copy unavailable'; }
     });
     actions.append(link, copy);
-    card.append(head, title, byline, summary, status, actions);
+    card.append(head, title, byline);
+    if (paper.summary) card.append(summary);
+    card.append(actions);
     return card;
   }
 
@@ -79,8 +80,8 @@
 
   function renderResults() {
     const visible = visiblePapers();
-    $('result-count').textContent = `${visible.length} of ${papers.length} section records`;
-    $('list-title').textContent = state.section === 'all' ? 'All records' : `${state.section} ${sectionNames[state.section]}`;
+    $('result-count').textContent = `${visible.length} results`;
+    $('list-title').textContent = state.section === 'all' ? 'All papers' : `${state.section} ${sectionNames[state.section]}`;
     const grouped = state.section === '5.1' || state.section === '5.2';
     if (grouped && $('kind').value === 'all') {
       $('results').replaceChildren(renderGroup('Method papers', visible.filter(p => p.kind === 'method')), renderGroup('Benchmark papers', visible.filter(p => p.kind === 'benchmark')));
