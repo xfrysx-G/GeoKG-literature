@@ -1,186 +1,737 @@
-[
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "跨领域环境与灾害",
-    "英文名称": "KnowWhereGraph",
-    "中文名称（便于理解的译名）": "跨领域地理知识图谱",
-    "成果形态": "知识图谱、数据融合与地理增值服务",
-    "团队与代表作者": "UCSB等多校合作；Krzysztof Janowicz、Pascal Hitzler、Mark Schildhauer等",
-    "代表性依据": "NSF Convergence Accelerator支持；合作涉及USGS、USDA及产业和公益机构",
-    "主要知识与用途": "把灾害、土壤、农业、健康等数据通过空间单元与时间关联，服务跨领域环境信息发现",
-    "边界与使用注意": "适合说明异构数据的空间关联和地理增值；不能把空间共现直接解释为因果关系",
-    "官方项目或机构入口": "https://www.knowwheregraph.org/",
-    "论文或技术文档入口": "https://arxiv.org/abs/2502.13874",
-    "论文或文档名称": "The KnowWhereGraph: A Large-Scale Geo-Knowledge Graph for Interdisciplinary Knowledge Discovery and Geo-Enrichment",
-    "id": "knowwheregraph",
-    "English domain": "Human–environment integration",
-    "English summary": "A cross-domain geo-knowledge graph that connects environmental and societal data through shared spatial references, supporting geo-enrichment and contextual discovery.",
-    "知识与空间表达": "地理实体、区域、全球离散网格及主题数据；通过空间与时间关联不同来源。",
-    "典型用途": "受灾地区背景信息整合、农业与食品供应链环境信息、跨来源区域比较。",
-    "综述中的整理价值": "以空间位置组织跨领域证据，说明GeoKG如何承担GIS中的地理增值服务。",
-    "参考论文或文档信息": "2025 · arXiv预印本；此处链接版本不作为期刊出版信息",
-    "补充来源": "https://knowwheregraph.org/about/",
-    "来源核查日期": "2026-11-07"
-  },
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "深时地学与地质",
-    "英文名称": "DDE Geoscience Knowledge Graph",
-    "中文名称（便于理解的译名）": "深时数字地球地学知识图谱",
-    "成果形态": "国际科学计划中的知识体系、图谱与协同工具",
-    "团队与代表作者": "IUGS Deep-time Digital Earth计划；朱云强、周成虎、胡修棉、王新兵等多机构团队",
-    "代表性依据": "IUGS国际科学计划及UNESCO官方介绍；有系统性方法与建设进展论文",
-    "主要知识与用途": "组织基础层、学科层与应用层知识，支持地学知识共享、融合与专业应用",
-    "边界与使用注意": "DDE是计划与生态体系，不能等同于一个已完全统一的全球实例图谱",
-    "官方项目或机构入口": "https://www.unesco.org/en/open-science/inclusive-science/empowering-geoscientists-deep-time-digital-earth",
-    "论文或技术文档入口": "https://www.geogsci.com/EN/abstract/article/1009-637X/73547",
-    "论文或文档名称": "Methodology, progress and challenges of geoscience knowledge graph in International Big Science Program of Deep-Time Digital Earth",
-    "id": "dde",
-    "English domain": "Deep-time geoscience",
-    "English summary": "The DDE programme develops geoscience knowledge systems, ontologies and graphs across disciplines, combining expert organisation with knowledge extraction.",
-    "知识与空间表达": "地学概念及学科关系；区分基础、学科和应用层。空间实例与专业概念层需分别说明。",
-    "典型用途": "跨学科地学知识共享、专业语义整合、面向应用的地学知识组织。",
-    "综述中的整理价值": "国际科学计划下的专业领域知识工程，适合体现专家知识、学科本体与图谱协作。",
-    "参考论文或文档信息": "2025 · Journal of Geographical Sciences 35(5): 1132–1156 · DOI: 10.1007/s11442-025-2361-0",
-    "补充来源": "https://www.geogsci.com/EN/abstract/article/1009-637X/73547",
-    "来源核查日期": "2026-11-07"
-  },
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "城市、能源与工业数字孪生",
-    "英文名称": "The World Avatar",
-    "中文名称（便于理解的译名）": "世界化身／世界数字孪生知识图谱",
-    "成果形态": "动态知识图谱、计算代理与数字孪生框架",
-    "团队与代表作者": "University of Cambridge、Cambridge CARES及合作团队；Markus Kraft、Jethro Akroyd等",
-    "代表性依据": "剑桥官方持续研究项目；具有通用框架论文及洪水风险等应用研究",
-    "主要知识与用途": "连接建筑、能源、环境与模型，使用计算代理更新信息及派生结果，支持模拟和情景分析",
-    "边界与使用注意": "框架、本体与具体应用实例图谱应分开表述；并非所有模块都是地理数据",
-    "官方项目或机构入口": "https://www.cares.cam.ac.uk/research/the-world-avatar/",
-    "论文或技术文档入口": "https://doi.org/10.1017/dce.2021.10",
-    "论文或文档名称": "Universal Digital Twin – A Dynamic Knowledge Graph",
-    "id": "world-avatar",
-    "English domain": "Dynamic digital twins",
-    "English summary": "A dynamic knowledge graph and agent framework connecting data and computational models for interoperable digital twins and scenario analysis.",
-    "知识与空间表达": "建筑、基础设施、传感器、环境信息与计算模型；代理更新数据和派生信息，部分应用具有空间锚点。",
-    "典型用途": "建筑与能源系统分析、城市韧性、洪水评估和情景模拟；具体能力取决于应用模块。",
-    "综述中的整理价值": "从静态事实走向数据—模型—计算代理协同，适合讨论动态GeoKG与数字孪生。",
-    "参考论文或文档信息": "2021 · Data-Centric Engineering · DOI: 10.1017/dce.2021.10",
-    "补充来源": "https://doi.org/10.1017/dce.2021.10",
-    "来源核查日期": "2026-11-07"
-  },
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "水文与水资源",
-    "英文名称": "Geoconnex",
-    "中文名称（便于理解的译名）": "水文地理数据互联知识图谱",
-    "成果形态": "水数据标识、链接与检索基础设施",
-    "团队与代表作者": "Lincoln Institute of Land Policy的Center for Geospatial Solutions／Internet of Water；与USGS合作",
-    "代表性依据": "USGS官方介绍其社区水数据知识图谱与检索索引；有公开访问文档",
-    "主要知识与用途": "以持久标识关联河流、流域、监测站、数据服务与提供机构，帮助发现跨机构水数据",
-    "边界与使用注意": "核心是水文对象与分散数据资源互联，不代表将全部原始观测集中存入图谱",
-    "官方项目或机构入口": "https://internetofwater.org/geoconnex/",
-    "论文或技术文档入口": "https://docs.geoconnex.us/access/overview/",
-    "论文或文档名称": "Geoconnex official knowledge graph access documentation",
-    "id": "geoconnex",
-    "English domain": "Hydrology and water data",
-    "English summary": "A water-data linking infrastructure that uses persistent identifiers and a knowledge graph to connect hydrologic features with distributed data resources.",
-    "知识与空间表达": "河流、流域、监测站及相关数据服务；利用持久URI连接水文参考对象与分散资源。",
-    "典型用途": "跨机构发现某条河流、流域或站点关联的数据，减少不同水数据系统间的检索障碍。",
-    "综述中的整理价值": "侧重标识、链接和资源发现，代表跨机构水文数据互操作。",
-    "参考论文或文档信息": "官方技术文档；此条不冒充期刊论文",
-    "补充来源": "https://www.usgs.gov/media/videos/towards-internet-water-creating-a-community-search-index-water-data",
-    "来源核查日期": "2026-11-07"
-  },
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "海洋信息",
-    "英文名称": "Ocean Data Information System (ODIS)",
-    "中文名称（便于理解的译名）": "海洋数据信息系统",
-    "成果形态": "联邦式元数据知识图谱与互操作工程",
-    "团队与代表作者": "UNESCO IOC／IODE；Pier Luigi Buttigieg、Douglas Fils等参与技术建设",
-    "代表性依据": "联合国教科文组织政府间海洋学委员会体系；跨机构海洋资源互联",
-    "主要知识与用途": "通过分布式节点发布和采集结构化元数据，连接海洋数据、服务及其他信息资源",
-    "边界与使用注意": "主要是资源描述与发现层的知识图谱，不能称为统一的原始海洋观测或海洋因果图谱",
-    "官方项目或机构入口": "https://odis.org/overview/",
-    "论文或技术文档入口": "https://github.com/iodepo/odis-arch",
-    "论文或文档名称": "ODIS architecture and implementation documentation",
-    "id": "odis",
-    "English domain": "Federated ocean information",
-    "English summary": "A federation of independent ocean information systems whose shared metadata conventions enable a collective knowledge graph for resource discovery.",
-    "知识与空间表达": "海洋数据集、服务与其他信息资源的结构化描述；采集分布式节点元数据并建立资源关联。",
-    "典型用途": "跨海洋机构发现数据和服务，让独立系统的资源描述可互操作。",
-    "综述中的整理价值": "以国际协作的联邦元数据图谱实现海洋信息发现，适合与集中式实例图谱比较。",
-    "参考论文或文档信息": "官方项目与架构文档；此条不冒充期刊论文",
-    "补充来源": "https://book.odis.org/",
-    "来源核查日期": "2026-11-07"
-  },
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "智慧城市与交通",
-    "英文名称": "Km4City / Snap4City",
-    "中文名称（便于理解的译名）": "城市知识模型与智慧城市平台",
-    "成果形态": "城市本体、实例知识库、API与运营平台",
-    "团队与代表作者": "University of Florence DISIT Lab；Paolo Nesi、Pierfrancesco Bellini等",
-    "代表性依据": "佛罗伦萨大学研究团队；有城市知识库、服务接口与平台应用文档",
-    "主要知识与用途": "语义整合道路、地址、POI、公共交通、传感器与城市事件，支持城市服务和数据查询",
-    "边界与使用注意": "Km4City本体与Snap4City平台不是同一对象；代表性在于本体与实例知识库及服务的结合",
-    "官方项目或机构入口": "https://www.snap4city.org/drupal/node/19",
-    "论文或技术文档入口": "https://arxiv.org/abs/1508.01086",
-    "论文或文档名称": "Km4City Ontology Building vs Data Harvesting and Cleaning for Smart-city Services",
-    "id": "km4city",
-    "English domain": "Smart cities and mobility",
-    "English summary": "A city knowledge model and platform ecosystem integrating heterogeneous urban data into an RDF knowledge base for querying and city services.",
-    "知识与空间表达": "道路、地址、城市服务、交通传感器等；用城市本体协调静态与动态数据，并提供SPARQL访问。",
-    "典型用途": "城市数据整合、道路及服务查询、交通与传感器相关应用。",
-    "综述中的整理价值": "展示城市本体如何落地为实例知识库、接口与应用，而非停留在概念模型。",
-    "参考论文或文档信息": "作者公开稿 arXiv:1508.01086；关联出版DOI: 10.1016/j.jvlc.2014.10.023",
-    "补充来源": "https://arxiv.org/abs/1508.01086",
-    "来源核查日期": "2026-11-07"
-  },
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "精确几何与空间问答",
-    "英文名称": "YAGO2geo",
-    "中文名称（便于理解的译名）": "具有精确地理空间知识的YAGO扩展",
-    "成果形态": "地理知识图谱与研究数据资源",
-    "团队与代表作者": "National and Kapodistrian University of Athens；Manolis Koubarakis、Nikolaos Karalis、Georgios Mandilaras",
-    "代表性依据": "ISWC 2019成果；雅典大学公开论文与项目资源",
-    "主要知识与用途": "为YAGO补充点、线、面等几何及行政区域信息，支持更精确的空间查询与地理问答",
-    "边界与使用注意": "属于经典研究资源；不能仅凭项目主页存在就判断其仍在持续更新",
-    "官方项目或机构入口": "https://yago2geo.di.uoa.gr/",
-    "论文或技术文档入口": "https://cgi.di.uoa.gr/~koubarak/publications/2019/yago2geo_iswc2019.pdf",
-    "论文或文档名称": "Extending the YAGO2 Knowledge Graph with Precise Geospatial Knowledge",
-    "id": "yago2geo",
-    "English domain": "Precise geospatial knowledge",
-    "English summary": "An extension of YAGO2 with precise geospatial information and geometries, supporting spatial queries beyond simple entity coordinates.",
-    "知识与空间表达": "地理实体与行政区划，以及点、线、面等精确几何；支持基于几何的空间查询。",
-    "典型用途": "空间条件检索与地理问答，以及对地理实体几何和行政关系的联合利用。",
-    "综述中的整理价值": "适合作为语义实体与精确几何结合的研究案例。",
-    "参考论文或文档信息": "2019 · ISWC · 作者公开PDF",
-    "补充来源": "https://cgi.di.uoa.gr/~koubarak/publications/2019/yago2geo_iswc2019.pdf",
-    "来源核查日期": "2026-11-07"
-  },
-  {
-    "推荐层级": "代表案例（非影响力排名）",
-    "领域": "全球地理实体与开放地图语义化",
-    "英文名称": "WorldKG",
-    "中文名称（便于理解的译名）": "世界尺度地理知识图谱",
-    "成果形态": "地理知识图谱与公开研究数据",
-    "团队与代表作者": "University of Bonn、L3S；Elena Demidova、Alishiba Dsouza、Nicolas Tempelmeier、Ran Yu、Simon Gottschalk",
-    "代表性依据": "DFG研究项目；CIKM 2021论文及机构公开成果",
-    "主要知识与用途": "把OpenStreetMap的地理实体和标签组织成语义层级，关联Wikidata、DBpedia等外部知识",
-    "边界与使用注意": "WorldKG是基于OSM构建的语义资源，不等同于OSM本身；注意数据版本时间",
-    "官方项目或机构入口": "https://www.dsis.uni-bonn.de/worldkg/de",
-    "论文或技术文档入口": "https://arxiv.org/abs/2109.10036",
-    "论文或文档名称": "WorldKG: A World-Scale Geographic Knowledge Graph",
-    "id": "worldkg",
-    "English domain": "World-scale geographic entities",
-    "English summary": "A world-scale geographic knowledge graph that semantically organises OpenStreetMap entities and tags and connects them with external knowledge bases.",
-    "知识与空间表达": "OSM地理实体、标签与语义类别层级；连接外部知识库，改善地理实体的语义表达。",
-    "典型用途": "地理实体语义检索、地图数据与通用知识库对齐、地理知识增强研究。",
-    "综述中的整理价值": "适合作为开放地图数据从标签系统走向语义图谱的代表案例。",
-    "参考论文或文档信息": "2021 · CIKM: 4475–4484 · DOI: 10.1145/3459637.3482023",
-    "补充来源": "https://research.uni-hannover.de/en/publications/worldkg-a-world-scale-geographic-knowledge-graph/",
-    "来源核查日期": "2026-11-07"
-  }
-]
+{
+  "resources": [
+    {
+      "id": "knowwheregraph",
+      "name": "KnowWhereGraph",
+      "kind": "Data products & platforms",
+      "domain": "Earth & environment",
+      "focus": "Scene-oriented",
+      "team": "UCSB and collaborators; Janowicz, Hitzler, Schildhauer, Zhu et al.",
+      "summary": "Connects environmental and societal datasets through shared spatial references for interdisciplinary discovery and geo-enrichment.",
+      "research": {
+        "title": "The KnowWhereGraph: A Large-Scale Geo-Knowledge Graph for Interdisciplinary Knowledge Discovery and Geo-Enrichment (2026)",
+        "url": "https://doi.org/10.1111/tgis.70184"
+      },
+      "product": "https://knowwheregraph.org/",
+      "chapter2": true,
+      "extra_papers": [
+        {
+          "title": "Know, Know Where, KnowWhereGraph (2022)",
+          "url": "https://doi.org/10.1002/aaai.12043"
+        }
+      ]
+    },
+    {
+      "id": "dde-geoscience-knowledge-graph",
+      "name": "DDE Geoscience Knowledge Graph",
+      "kind": "Data products & platforms",
+      "domain": "Earth & environment",
+      "focus": "Scene-oriented",
+      "team": "IUGS Deep-time Digital Earth programme",
+      "summary": "Organises geoscience concepts and disciplinary knowledge within the Deep-time Digital Earth programme.",
+      "research": {
+        "title": "DDE geoscience knowledge systems and graph research",
+        "url": "https://www.geogsci.com/EN/abstract/article/1009-637X/73547"
+      },
+      "product": "https://www.ddeworld.org/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "the-world-avatar",
+      "name": "The World Avatar",
+      "kind": "Data products & platforms",
+      "domain": "Cities & tourism",
+      "focus": "Process-oriented",
+      "team": "University of Cambridge, CARES and collaborators; Markus Kraft et al.",
+      "summary": "A dynamic knowledge graph and software-agent ecosystem linking physical assets, observations and computational models in digital twins.",
+      "research": {
+        "title": "The World Avatar: A world model for facilitating interoperability (2021)",
+        "url": "https://doi.org/10.1017/dce.2021.10"
+      },
+      "product": "https://github.com/cambridge-cares/TheWorldAvatar",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "geoconnex",
+      "name": "Geoconnex",
+      "kind": "Data products & platforms",
+      "domain": "Water & oceans",
+      "focus": "Scene-oriented",
+      "team": "Internet of Water Coalition, USGS and partners",
+      "summary": "Connects hydrologic features with distributed water data using persistent identifiers and linked-data knowledge graphs.",
+      "research": {
+        "title": "Geoconnex knowledge graph access documentation",
+        "url": "https://docs.geoconnex.us/access/overview/"
+      },
+      "product": "https://geoconnex.us/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "ocean-data-information-system",
+      "name": "Ocean Data Information System",
+      "kind": "Data products & platforms",
+      "domain": "Water & oceans",
+      "focus": "Scene-oriented",
+      "team": "UNESCO-IOC International Oceanographic Data and Information Exchange",
+      "summary": "Federates ocean information systems through interoperable metadata and a shared discovery knowledge graph.",
+      "research": {
+        "title": "ODIS architecture and implementation",
+        "url": "https://github.com/iodepo/odis-arch"
+      },
+      "product": "https://odis.org/overview/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "km4city-snap4city",
+      "name": "Km4City / Snap4City",
+      "kind": "Data products & platforms",
+      "domain": "Cities & tourism",
+      "focus": "Scene-oriented",
+      "team": "DISIT Lab, University of Florence; Paolo Nesi and collaborators",
+      "summary": "An RDF city knowledge model and smart-city platform connecting transport, services, sensors and urban resources.",
+      "research": {
+        "title": "Km4City urban knowledge model",
+        "url": "https://arxiv.org/abs/1508.01086"
+      },
+      "product": "https://www.snap4city.org/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "yago2geo",
+      "name": "YAGO2geo",
+      "kind": "Data products & platforms",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "University of Athens; Nikos Karalis, Georgios Mandilaras, Manolis Koubarakis",
+      "summary": "Extends YAGO2 with detailed geographic geometries and spatial relations for geometry-aware queries.",
+      "research": {
+        "title": "Extending the YAGO2 knowledge graph with precise geospatial knowledge (2019)",
+        "url": "https://cgi.di.uoa.gr/~koubarak/publications/2019/yago2geo_iswc2019.pdf"
+      },
+      "product": "https://yago2geo.di.uoa.gr/",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "worldkg",
+      "name": "WorldKG",
+      "kind": "Data products & platforms",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "Dsouza, Tempelmeier, Yu, Gottschalk and Demidova",
+      "summary": "Builds a geographic knowledge graph from OpenStreetMap, with an ontology that makes heterogeneous tags and entity types easier to query.",
+      "research": {
+        "title": "WorldKG: A World-Scale Geographic Knowledge Graph (2021)",
+        "url": "https://arxiv.org/abs/2109.10036"
+      },
+      "product": "https://www.dsis.uni-bonn.de/worldkg/de",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "yago2",
+      "name": "YAGO2",
+      "kind": "Data products & platforms",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "Max Planck Institute for Informatics; Hoffart, Suchanek, Berberich and Weikum",
+      "summary": "A general knowledge graph with explicit temporal and spatial information; provides the foundation extended by YAGO2geo.",
+      "research": {
+        "title": "YAGO2: A Spatially and Temporally Enhanced Knowledge Base from Wikipedia (2013)",
+        "url": "https://doi.org/10.1016/j.artint.2012.06.001"
+      },
+      "product": "https://yago-knowledge.org/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "linkedgeodata",
+      "name": "LinkedGeoData",
+      "kind": "Data products & platforms",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "Leipzig AKSW; Stadler, Lehmann, Höffner and Auer",
+      "summary": "Publishes OpenStreetMap features as RDF linked data and connects spatial entities to external knowledge bases.",
+      "research": {
+        "title": "LinkedGeoData: A Core for a Web of Spatial Open Data (2012)",
+        "url": "https://doi.org/10.3233/SW-2011-0052"
+      },
+      "product": "https://linkedgeodata.org/",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "wikidata-geographic-knowledge",
+      "name": "Wikidata geographic knowledge",
+      "kind": "Data products & platforms",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "Wikimedia community; Denny Vrandečić and Markus Krötzsch",
+      "summary": "The geographic part of a general-purpose collaborative knowledge graph, including places, coordinates and administrative relationships.",
+      "research": {
+        "title": "Wikidata: A Free Collaborative Knowledgebase (2014)",
+        "url": "https://doi.org/10.1145/2629489"
+      },
+      "product": "https://query.wikidata.org/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "dbpedia-geographic-knowledge",
+      "name": "DBpedia geographic knowledge",
+      "kind": "Data products & platforms",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "DBpedia community; Lehmann, Auer, Bizer and collaborators",
+      "summary": "The geographic part of a multilingual general knowledge graph extracted from Wikipedia, supporting place linking and cross-domain queries.",
+      "research": {
+        "title": "DBpedia: A Large-Scale, Multilingual Knowledge Base Extracted from Wikipedia (2015)",
+        "url": "https://doi.org/10.3233/SW-140134"
+      },
+      "product": "https://www.dbpedia.org/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "geonames-linked-data",
+      "name": "GeoNames Linked Data",
+      "kind": "Data products & platforms",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "GeoNames project",
+      "summary": "Provides geographic names, feature types and administrative relationships through stable entity identifiers and RDF representations.",
+      "research": {
+        "title": "GeoNames Ontology and Semantic Web documentation",
+        "url": "https://www.geonames.org/ontology/documentation.html"
+      },
+      "product": "https://www.geonames.org/ontology/documentation.html",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "tourism-kg-for-interpretable-recommendation",
+      "name": "Tourism-KG for interpretable recommendation",
+      "kind": "Research works",
+      "domain": "Cities & tourism",
+      "focus": "Scene-oriented",
+      "team": "Jialiang Gao, Peng Peng, Feng Lu, Christophe Claramunt and Yang Xu",
+      "summary": "Uses tourism knowledge graphs to represent destination attributes and disentangle tourist decision-making for interpretable travel recommendations.",
+      "research": {
+        "title": "Towards travel recommendation interpretability: Disentangling tourist decision-making process via knowledge graph (2023)",
+        "url": "https://doi.org/10.1016/j.ipm.2023.103369"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "tourism-spatial-competitive-intelligence",
+      "name": "Tourism spatial competitive intelligence",
+      "kind": "Research works",
+      "domain": "Cities & tourism",
+      "focus": "Scene-oriented",
+      "team": "Jialiang Gao, Peng Peng, Feng Lu, Shu Wang, Xiaogang Xie and Christophe Claramunt",
+      "summary": "Applies tourism knowledge graphs to analyse relationships between destination characteristics and spatial competition.",
+      "research": {
+        "title": "Knowledge-driven spatial competitive intelligence for tourism (2024)",
+        "url": "https://doi.org/10.1111/tgis.13145"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "uukg",
+      "name": "UUKG",
+      "kind": "Data products & platforms",
+      "domain": "Cities & tourism",
+      "focus": "Scene-oriented",
+      "team": "HKUST (Guangzhou), HKUST and Alibaba Cloud; Yansong Ning, Hao Liu, Hao Wang, Zhenyu Zeng and Hui Xiong",
+      "summary": "Public urban knowledge graphs for New York and Chicago, linking urban entities and supporting taxi, bike, crowd, crime and service-demand prediction.",
+      "research": {
+        "title": "UUKG: Unified Urban Knowledge Graph Dataset for Urban Spatiotemporal Prediction (2023)",
+        "url": "https://arxiv.org/abs/2306.11443"
+      },
+      "product": "https://github.com/usail-hkust/UUKG",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "maritime-element-knowledge-graph",
+      "name": "Maritime element knowledge graph",
+      "kind": "Research works",
+      "domain": "Water & oceans",
+      "focus": "Scene-oriented",
+      "team": "Y. Li, X. Liu, Z. Wang, Q. Mei, W. Xie, Y. Yang and P. Wang",
+      "summary": "Builds a maritime semantic schema and knowledge graph connecting vessels, navigation infrastructure and activity information for automated decision-making.",
+      "research": {
+        "title": "Construction of a large-scale maritime element semantic schema based on knowledge graph models for unmanned automated decision-making (2024)",
+        "url": "https://doi.org/10.3389/fmars.2024.1390931"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "ship-collision-accident-knowledge-graph",
+      "name": "Ship-collision accident knowledge graph",
+      "kind": "Research works",
+      "domain": "Water & oceans",
+      "focus": "Scene-oriented",
+      "team": "Langxiong Gan, Beiyan Ye, Zhiqiu Huang, Yi Xu, Qiaohong Chen and Yaqing Shu",
+      "summary": "Extracts structured accident knowledge from ship-collision reports and supports case retrieval for maritime safety investigation.",
+      "research": {
+        "title": "Knowledge graph construction based on ship collision accident reports to improve maritime traffic safety (2023)",
+        "url": "https://doi.org/10.1016/j.ocecoaman.2023.106660"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "scenekg",
+      "name": "SceneKG",
+      "kind": "Research works",
+      "domain": "Earth & environment",
+      "focus": "Scene-oriented",
+      "team": "Y. Huang, Y. He, Y. Sheng and collaborators",
+      "summary": "Represents geographic scenes as contextualised spatiotemporal knowledge, incorporating geographic processes and their interactions.",
+      "research": {
+        "title": "SceneKG: A Geo-Scene Based Spatiotemporal Knowledge Representation Framework Considering Geo-Processes",
+        "url": "https://doi.org/10.1111/tgis.13270"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "cascading-disaster-causal-knowledge-graph",
+      "name": "Cascading-disaster causal knowledge graph",
+      "kind": "Research works",
+      "domain": "Hazards & resilience",
+      "focus": "Process-oriented",
+      "team": "Yuanyuan Tian and Wenwen Li",
+      "summary": "Extracts causal links between disaster events using semantic rules, spatiotemporal co-occurrence and event descriptions.",
+      "research": {
+        "title": "GeoAI for Knowledge Graph Construction: Identifying Causality Between Cascading Events to Support Environmental Resilience Research (2022)",
+        "url": "https://arxiv.org/abs/2211.06011"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "landslide-susceptibility-knowledge-graph",
+      "name": "Landslide susceptibility knowledge graph",
+      "kind": "Research works",
+      "domain": "Hazards & resilience",
+      "focus": "Process-oriented",
+      "team": "Xuexi Yang, Qian Xu, Qinghao Liu, Xin Hu and collaborators",
+      "summary": "Combines domain knowledge extraction, graph construction and rule mining to support interpretable landslide susceptibility evaluation.",
+      "research": {
+        "title": "Towards Intelligent Landslide Susceptibility Evaluation: Knowledge Extraction and Rule Mining (2025)",
+        "url": "https://doi.org/10.1016/j.knosys.2025.114656"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "disaster-chain-observation-event-logic-graph",
+      "name": "Disaster-chain observation event logic graph",
+      "kind": "Research works",
+      "domain": "Hazards & resilience",
+      "focus": "Process-oriented",
+      "team": "Yunbo Zhang, Wenjie Chen, Bingshu Huang and collaborators",
+      "summary": "Uses an observation-event logic ontology and instantiated graph knowledge to plan geographic observations across disaster-chain stages.",
+      "research": {
+        "title": "An event logic graph for geographic environment observation planning in disaster chain monitoring (2024)",
+        "url": "https://doi.org/10.1016/j.jag.2024.104220"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "ecolink",
+      "name": "EcoLink",
+      "kind": "Research works",
+      "domain": "Earth & environment",
+      "focus": "Process-oriented",
+      "team": "Tim Alamenciak, C. A. Arnillas, H. Caufield and collaborators",
+      "summary": "Develops a LinkML-based knowledge graph schema for environmental variables, ecological processes and their relationships in complex environmental systems.",
+      "research": {
+        "title": "EcoLink: Towards a Knowledge Graph Schema for Complex Environmental Systems (2025)",
+        "url": "https://escholarship.org/uc/item/7gr7x0gx"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "glean-dynamic-event-knowledge-graphs",
+      "name": "GLEAN dynamic event knowledge graphs",
+      "kind": "Research works",
+      "domain": "Events & geopolitics",
+      "focus": "Process-oriented",
+      "team": "Songgaojun Deng, Huzefa Rangwala and Yue Ning",
+      "summary": "Constructs dynamic event-actor graphs and combines relational and textual contexts to forecast multiple event types and participants.",
+      "research": {
+        "title": "Dynamic Knowledge Graph Based Multi-Event Forecasting (2020)",
+        "url": "https://www.kdd.org/kdd2020/accepted-papers/view/dynamic-knowledge-graph-based-multi-event-forecasting.html"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": [
+        {
+          "title": "Source code and experimental data instructions",
+          "url": "https://github.com/amy-deng/glean"
+        },
+        {
+          "title": "ICEWS source event data",
+          "url": "https://doi.org/10.7910/DVN/28075"
+        }
+      ]
+    },
+    {
+      "id": "llm4geopolitics",
+      "name": "LLM4Geopolitics",
+      "kind": "Research works",
+      "domain": "Events & geopolitics",
+      "focus": "Process-oriented",
+      "team": "Amira Mouakher, Nuno Morgado and Farah Ftouhi",
+      "summary": "Combines event knowledge graph representations and large language models for contextual geopolitical event forecasting.",
+      "research": {
+        "title": "LLM4Geopolitics: A Framework Leveraging Large Language Models for Predicting Geopolitical Events (2026)",
+        "url": "https://doi.org/10.1111/exsy.70258"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "formal-geographic-knowledge-graph-model",
+      "name": "Formal geographic knowledge graph model",
+      "kind": "Research works",
+      "domain": "Foundations & general geography",
+      "focus": "Fact-oriented",
+      "team": "Shu Wang, Xueying Zhang, Peng Ye, Mi Du, Yanxu Lu and Haonan Xue",
+      "summary": "Formalises geographic knowledge representation through geographic objects, concepts and relationships, including states and changes.",
+      "research": {
+        "title": "Geographic Knowledge Graph (GeoKG): A Formalized Geographic Knowledge Representation (2019)",
+        "url": "https://doi.org/10.3390/ijgi8040184"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    },
+    {
+      "id": "geographic-evolutionary-knowledge-graph",
+      "name": "Geographic evolutionary knowledge graph",
+      "kind": "Research works",
+      "domain": "Earth & environment",
+      "focus": "Process-oriented",
+      "team": "Kun Zheng, Ming Hui Xie, Jin Biao Zhang, Juan Xie and Shu Hao Xia",
+      "summary": "Models geographic entities, events and evolution to represent changing geographic processes and support spatiotemporal reasoning.",
+      "research": {
+        "title": "A knowledge representation model based on the geographic spatiotemporal process (2022)",
+        "url": "https://doi.org/10.1080/13658816.2021.1962527"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": [
+        {
+          "title": "Associated research data",
+          "url": "https://doi.org/10.6084/m9.figshare.13078061"
+        }
+      ]
+    },
+    {
+      "id": "eventkg",
+      "name": "EventKG",
+      "kind": "Data products & platforms",
+      "domain": "Events & geopolitics",
+      "focus": "Scene-oriented",
+      "team": "L3S Research Center; Simon Gottschalk and Elena Demidova",
+      "summary": "A multilingual event-centric temporal knowledge graph connecting events with entities, time and locations.",
+      "research": {
+        "title": "EventKG: A Multilingual Event-Centric Temporal Knowledge Graph (2018)",
+        "url": "https://arxiv.org/abs/1804.04526"
+      },
+      "product": "https://eventkg.l3s.uni-hannover.de/data.html",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "geolink",
+      "name": "GeoLink",
+      "kind": "Data products & platforms",
+      "domain": "Earth & environment",
+      "focus": "Scene-oriented",
+      "team": "EarthCube GeoLink consortium; geoscience repositories and semantic-web researchers",
+      "summary": "Connects geoscience datasets, expeditions, samples, publications, researchers and funding through an RDF knowledge graph.",
+      "research": {
+        "title": "The GeoLink Knowledge Graph (2018)",
+        "url": "https://doi.org/10.1080/20964471.2018.1469291"
+      },
+      "product": "https://www.geolink.org/",
+      "chapter2": false,
+      "extra_papers": []
+    },
+    {
+      "id": "geospatial-data-retrieval-knowledge-graph",
+      "name": "Geospatial data retrieval knowledge graph",
+      "kind": "Research works",
+      "domain": "Foundations & general geography",
+      "focus": "Scene-oriented",
+      "team": "Hao Li, Peng Yue, Haoru Wu, Baoxin Teng, Yongkun Zhao and Changfeng Liu",
+      "summary": "Connects geospatial dataset knowledge with large language models to interpret natural-language questions and retrieve relevant geographic data.",
+      "research": {
+        "title": "A Question-Answering Framework for Geospatial Data Retrieval Enhanced by a Knowledge Graph and Large Language Models (2025)",
+        "url": "https://doi.org/10.1080/17538947.2025.2510566"
+      },
+      "product": "",
+      "chapter2": true,
+      "extra_papers": []
+    }
+  ],
+  "references": [
+    {
+      "title": "Geographic knowledge graph (GeoKG): A formalized geographic knowledge representation",
+      "authors": "Wang, Shu; Zhang, Xueying; Ye, Peng; Du, Mi; Lu, Yanxu; Xue, Haonan",
+      "year": "2019",
+      "venue": "ISPRS International Journal of Geo-Information",
+      "url": "https://doi.org/10.3390/ijgi8040184",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Review, framework, and future perspectives of Geographic Knowledge Graph (GeoKG) quality assessment",
+      "authors": "Wang, Shu; Qiu, Peiyuan; Zhu, Yunqiang; Yang, Jie; Peng, Peng; Bai, Yan; Li, Gengze; Dai, Xiaoliang; Qi, Yanmin",
+      "year": "2025",
+      "venue": "Geo-spatial Information Science",
+      "url": "https://scholar.google.com/scholar?q=Review%2C+framework%2C+and+future+perspectives+of+Geographic+Knowledge+Graph+%28GeoKG%29+quality+assessment",
+      "link_label": "Find publication"
+    },
+    {
+      "title": "GeoNames",
+      "authors": "GeoNames",
+      "year": "",
+      "venue": "",
+      "url": "https://www.geonames.org/ontology/documentation.html",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Linkedgeodata: A core for a web of spatial open data",
+      "authors": "Stadler, Claus; Lehmann, Jens; Höffner, Konrad; Auer, Sören",
+      "year": "2012",
+      "venue": "Semantic Web",
+      "url": "https://doi.org/10.3233/SW-2011-0052",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Worldkg: A world-scale geographic knowledge graph",
+      "authors": "Dsouza, Alishiba; Tempelmeier, Nicolas; Yu, Ran; Gottschalk, Simon; Demidova, Elena",
+      "year": "2021",
+      "venue": "Proceedings of the 30th ACM international conference on information & knowledge management",
+      "url": "https://arxiv.org/abs/2109.10036",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Extending the YAGO2 knowledge graph with precise geospatial knowledge",
+      "authors": "Karalis, Nikolaos; Mandilaras, Georgios; Koubarakis, Manolis",
+      "year": "2019",
+      "venue": "International Semantic Web Conference",
+      "url": "https://cgi.di.uoa.gr/~koubarak/publications/2019/yago2geo_iswc2019.pdf",
+      "link_label": "Publication"
+    },
+    {
+      "title": "SceneKG: A Geo-Scene Based Spatiotemporal Knowledge Representation Framework Considering Geo-Processes",
+      "authors": "Yi Huang; Yufeng He; Yehua Sheng; Xianben Su; Songshan Zhou; Shaohua Lei; Xin Wang; Yongqi Xia; Yixiang Chen; Zhenhong Shen; Lizhi Tao; Weihao Li; Huaqi Gu; Hui Lin",
+      "year": "2024",
+      "venue": "Transactions in GIS",
+      "url": "https://doi.org/10.1111/tgis.13270",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Towards travel recommendation interpretability: Disentangling tourist decision-making process via knowledge graph",
+      "authors": "Gao, Jialiang; Peng, Peng; Lu, Feng; Claramunt, Christophe; Xu, Yang",
+      "year": "2023",
+      "venue": "Information Processing Management",
+      "url": "https://doi.org/10.1016/j.ipm.2023.103369",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Knowledge‐driven spatial competitive intelligence for tourism",
+      "authors": "Gao, Jialiang; Peng, Peng; Lu, Feng; Wang, Shu; Xie, Xiaowei; Claramunt, Christophe",
+      "year": "2024",
+      "venue": "Transactions in GIS",
+      "url": "https://doi.org/10.1111/tgis.13145",
+      "link_label": "Publication"
+    },
+    {
+      "title": "UUKG: unified urban knowledge graph dataset for urban spatiotemporal prediction",
+      "authors": "Ning, Yansong; Liu, Hao; Wang, Hao; Zeng, Zhenyu; Xiong, Hui",
+      "year": "2023",
+      "venue": "Advances in neural information processing systems",
+      "url": "https://arxiv.org/abs/2306.11443",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Construction of a large-scale maritime element semantic schema based on knowledge graph models for unmanned automated decision-making",
+      "authors": "Li, Yong; Liu, Xiaotong; Wang, Zhishan; Mei, Qiang; Xie, Wenxin; Yang, Yang; Wang, Peng",
+      "year": "2024",
+      "venue": "Frontiers in Marine Science",
+      "url": "https://doi.org/10.3389/fmars.2024.1390931",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Knowledge graph construction based on ship collision accident reports to improve maritime traffic safety",
+      "authors": "Gan, Langxiong; Ye, Beiyan; Huang, Zhiqiu; Xu, Yi; Chen, Qiaohong; Shu, Yaqing",
+      "year": "2023",
+      "venue": "Ocean Coastal Management",
+      "url": "https://doi.org/10.1016/j.ocecoaman.2023.106660",
+      "link_label": "Publication"
+    },
+    {
+      "title": "A knowledge representation model based on the geographic spatiotemporal process",
+      "authors": "Zheng, Kun; Xie, Ming Hui; Zhang, Jin Biao; Xie, Juan; Xia, Shu Hao",
+      "year": "2022",
+      "venue": "International Journal of Geographical Information Science",
+      "url": "https://doi.org/10.1080/13658816.2021.1962527",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems",
+      "authors": "Alamenciak, Tim; Arnillas, Carlos Alberto; Caufield, Harry; Compton, Katherine; Drew, Kian; Frühstückl, Robert; Heger, Tina; König-Ries, Birgitta; Mungall, Chris; Moxon, Sierra",
+      "year": "2025",
+      "venue": "International Conference on Theory and Practice of Digital Libraries",
+      "url": "https://escholarship.org/uc/item/7gr7x0gx",
+      "link_label": "Publication"
+    },
+    {
+      "title": "LLM4Geopolitics: A Framework Leveraging Large Language Models for Predicting Geopolitical Events",
+      "authors": "Mouakher, Amira; Morgado, Nuno; Ftouhi, Farah",
+      "year": "2026",
+      "venue": "Expert Systems",
+      "url": "https://doi.org/10.1111/exsy.70258",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Dynamic Knowledge Graph Based Multi-Event Forecasting",
+      "authors": "Songgaojun Deng; Huzefa Rangwala; Yue Ning",
+      "year": "2020",
+      "venue": "KDD '20 PROCEEDINGS OF THE 26TH ACM SIGKDD INTERNATIONAL CONFERENCE ON KNOWLEDGE DISCOVERY\rDATA MINING",
+      "url": "https://www.kdd.org/kdd2020/accepted-papers/view/dynamic-knowledge-graph-based-multi-event-forecasting.html",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Distortions in judged spatial relations in large language models",
+      "authors": "Fulman, Nir; Memduhoğlu, Abdulkadir; Zipf, Alexander",
+      "year": "2024",
+      "venue": "The Professional Geographer",
+      "url": "https://scholar.google.com/scholar?q=Distortions+in+judged+spatial+relations+in+large+language+models",
+      "link_label": "Find publication"
+    },
+    {
+      "title": "Foundation Models for Geospatial Reasoning: Assessing the Capabilities of Large Language Models in Understanding Geometries and Topological Spatial Relations",
+      "authors": "Yuhan Ji; Song Gao; Ying Nie; Ivan Majic; Krzysztof Janowicz",
+      "year": "2025",
+      "venue": "International Journal of Geographical Information Science",
+      "url": "https://doi.org/10.1080/13658816.2025.2511227",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Geo-hallucination in urban analytics: What it is and why it matters",
+      "authors": "Huang, Xiao",
+      "year": "2025",
+      "venue": "Environment Planning B: Urban Analytics City Science",
+      "url": "https://scholar.google.com/scholar?q=Geo-hallucination+in+urban+analytics%3A+What+it+is+and+why+it+matters",
+      "link_label": "Find publication"
+    },
+    {
+      "title": "Opportunities and Challenges of Integrating Geographic Information Science and Large Language Models",
+      "authors": "Nico van de Weghe; Lars De Sloover; Anthony G. Cohn; Haosheng Huang; Simon Scheider; Renee Sieber; Sabine Timpf; Christophe Claramunt",
+      "year": "2025",
+      "venue": "Journal of Spatial Information Science",
+      "url": "https://doi.org/10.5311/josis.2025.30.389",
+      "link_label": "Publication"
+    },
+    {
+      "title": "GeoCode-GPT: A Large Language Model for Geospatial Code Generation",
+      "authors": "Shuyang Hou; Zhangxiao Shen; Anqi Zhao; Jianyuan Liang; Zhipeng Gui; Xuefeng Guan; Rui Li; Huayi Wu",
+      "year": "2025",
+      "venue": "International Journal of Applied Earth Observation Geoinformation",
+      "url": "https://doi.org/10.1016/j.jag.2025.104456",
+      "link_label": "Publication"
+    },
+    {
+      "title": "A Question-Answering Framework for Geospatial Data Retrieval Enhanced by a Knowledge Graph and Large Language Models",
+      "authors": "Hao Li; Peng Yue; Haoru Wu; Baoxin Teng; Yongkun Zhao; Changfeng Liu",
+      "year": "2025",
+      "venue": "International Journal of Digital Earth",
+      "url": "https://doi.org/10.1080/17538947.2025.2510566",
+      "link_label": "Publication"
+    },
+    {
+      "title": "GIS copilot: Towards an autonomous GIS agent for spatial analysis",
+      "authors": "Akinboyewa, Temitope; Li, Zhenlong; Ning, Huan; Lessani, M Naser",
+      "year": "2025",
+      "venue": "International Journal of Digital Earth",
+      "url": "https://scholar.google.com/scholar?q=GIS+copilot%3A+Towards+an+autonomous+GIS+agent+for+spatial+analysis",
+      "link_label": "Find publication"
+    },
+    {
+      "title": "GeoAI: spatially explicit artificial intelligence techniques for geographic knowledge discovery and beyond",
+      "authors": "Janowicz, Krzysztof; Gao, Song; McKenzie, Grant; Hu, Yingjie; Bhaduri, Budhendra",
+      "year": "2020",
+      "venue": "International Journal of Geographical Information Science",
+      "url": "https://scholar.google.com/scholar?q=GeoAI%3A+spatially+explicit+artificial+intelligence+techniques+for+geographic+knowledge+discovery+and+beyond",
+      "link_label": "Find publication"
+    },
+    {
+      "title": "GeoAI for Knowledge Graph Construction: Identifying Causality Between Cascading Events to Support Environmental Resilience Research",
+      "authors": "Yuanyuan Tian; Wenwen Li",
+      "year": "2022",
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2211.06011",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Towards Intelligent Landslide Susceptibility Evaluation: Knowledge Extraction and Rule Mining",
+      "authors": "Xuexi Yang et al.",
+      "year": "2025",
+      "venue": "Knowledge-Based Systems",
+      "url": "https://doi.org/10.1016/j.knosys.2025.114656",
+      "link_label": "Publication"
+    },
+    {
+      "title": "An event logic graph for geographic environment observation planning in disaster chain monitoring",
+      "authors": "Yunbo Zhang et al.",
+      "year": "2024",
+      "venue": "International Journal of Applied Earth Observation and Geoinformation",
+      "url": "https://doi.org/10.1016/j.jag.2024.104220",
+      "link_label": "Publication"
+    },
+    {
+      "title": "Know, Know Where, KnowWhereGraph: A densely connected, cross-domain knowledge graph and geo-enrichment service stack for applications in environmental intelligence",
+      "authors": "Krzysztof Janowicz et al.",
+      "year": "2022",
+      "venue": "AI Magazine",
+      "url": "https://doi.org/10.1002/aaai.12043",
+      "link_label": "Publication"
+    },
+    {
+      "title": "The KnowWhereGraph: A Large-Scale Geo-Knowledge Graph for Interdisciplinary Knowledge Discovery and Geo-Enrichment",
+      "authors": "Rui Zhu et al.",
+      "year": "2026",
+      "venue": "Transactions in GIS",
+      "url": "https://doi.org/10.1111/tgis.70184",
+      "link_label": "Publication"
+    }
+  ]
+}
