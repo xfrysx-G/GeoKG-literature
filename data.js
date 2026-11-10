@@ -1,16 +1,5 @@
 window.PAPERS = [
   {
-    "section": "4",
-    "title": "Traff-LLM: A Spatio-Temporal Knowledge-Guided Large Language Model for Traffic Flow Prediction",
-    "authors": "Chengbiao Yang, Lingyu Zhang, and Guilin Qi",
-    "year": 2026,
-    "venue": "Communications in Computer and Information Science, vol. 2698, pp. 93-105",
-    "kind": "method",
-    "url": "https://doi.org/10.1007/978-981-95-8525-0_8",
-    "summary": "Chapter 4 supplemental method record. The paper constructs a spatiotemporal knowledge graph and retrieves compact task-relevant subgraphs for interpretable traffic-flow prediction.",
-    "source_status": "Metadata only; local PDF unavailable"
-  },
-  {
     "section": "5.1",
     "title": "AddressRAG: A Novel Retrieval Method for Toponym and Address Based on Knowledge Graph and Large Language Models",
     "authors": "Li Xu, Zhanlong Chen, Mengxi Zhang",
@@ -515,6 +504,17 @@ window.PAPERS = [
     "url": "https://doi.org/10.5220/0013066900003838",
     "summary": "Method-focused work assigned to Spatiotemporal forecasting; it presents or demonstrates a model, framework, system, or workflow relevant to this subsection.",
     "source_status": "PDF available in the supplied collection"
+  },
+  {
+    "section": "5.4",
+    "title": "Traff-LLM: A Spatio-Temporal Knowledge-Guided Large Language Model for Traffic Flow Prediction",
+    "authors": "Chengbiao Yang, Lingyu Zhang, and Guilin Qi",
+    "year": 2026,
+    "venue": "Communications in Computer and Information Science, vol. 2698, pp. 93-105",
+    "kind": "method",
+    "url": "https://doi.org/10.1007/978-981-95-8525-0_8",
+    "summary": "The paper constructs a spatiotemporal knowledge graph and uses a Temporal Prize-Collecting Steiner Tree (T-PCST) algorithm to retrieve compact, task-relevant subgraphs for interpretable traffic-flow prediction.",
+    "source_status": "Metadata only; local PDF unavailable"
   },
   {
     "section": "5.5",

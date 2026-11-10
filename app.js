@@ -10,7 +10,6 @@
     return node;
   };
   const sectionNames = {
-    '4': 'Traffic forecasting supplement',
     '5.1': 'Geographic question answering',
     '5.2': 'Automated spatial analysis',
     '5.3': 'Geospatial recommendation',
@@ -30,7 +29,7 @@
   }
 
   function renderSections() {
-    const order = ['all', '4', '5.1', '5.2', '5.3', '5.4', '5.5'];
+    const order = ['all', '5.1', '5.2', '5.3', '5.4', '5.5'];
     const buttons = order.map(section => {
       const active = state.section === section;
       const button = el('button', 'section-button' + (active ? ' active' : ''));
